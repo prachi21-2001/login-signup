@@ -1,0 +1,10 @@
+.row{
+    display: flex;
+    align-items: center;
+    /* margin-left: 100px; */
+}
+.inp{
+     text-align: center;
+     width: 200px;
+}
+ 
