@@ -9,8 +9,8 @@ import logo from '../assets/log.jpeg'
         <img src={logo}alt="Logo" />
       </div>
       <div className="navbar-buttons">
-        <button className="btn btn-primary">Login</button>
-        <button className="btn btn-outline-primary">Sign-up</button>
+        <button className="btn btn-primary"><Link to="/">Login</Link></button>
+        <button className="btn btn-outline-primary"><Link to="/signup">sign-up</Link></button>
       </div>
     </nav>
     )

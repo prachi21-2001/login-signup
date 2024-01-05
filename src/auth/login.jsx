@@ -5,7 +5,7 @@ import "./login.css"
 const login = () =>
 {
     return(
-        <>
+        <div style={{textAlign:"center"}}>
         <h1>Login</h1>
         <div style={{border: '2px solid #3498db',
     borderRadius: '5px',
@@ -13,8 +13,9 @@ const login = () =>
     textAlign:'center',
     alignItems:'center',
     display:'flex',
+    margin:"auto",
     flexDirection:'column',
-    padding:'10px',margin:'10px',}}>
+    padding:'10px',}}>
         
         <input type="text" className="inp" placeholder="Username"></input>
         <br/>
@@ -30,7 +31,7 @@ const login = () =>
         <button>submit</button>
         <p>not a member ? <Link to="/signup ">create account</Link></p>
         </div>
-        </>
+        </div>
     );
 };
 export default login;
